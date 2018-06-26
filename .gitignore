@@ -20,6 +20,8 @@ target
 .gradle
 build
 
+-# for security reason, login credentials shouldn't be pushed to Github
+secrets.yml 
 !*.prefs
 !*.classpath
 !*.project
